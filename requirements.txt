@@ -1,0 +1,20 @@
+# Python 3.13.9 compatible requirements
+# Core
+numpy>=2.3,<3
+pandas>=2.2,<4
+scikit-learn>=1.7,<2
+tqdm>=4.66,<5
+pyyaml>=6.0,<7
+matplotlib>=3.10,<4
+requests>=2.32,<3
+
+# Audio + training
+torch==2.11.*
+torchaudio==2.11.*
+librosa==0.11.*
+soundfile>=0.13,<1
+
+# Optional pretrained branches
+panns-inference==0.1.1
+# musicnn is not Python 3.13 compatible (requires numpy<1.17)
+musicnn==0.1.0; python_version < "3.13"
