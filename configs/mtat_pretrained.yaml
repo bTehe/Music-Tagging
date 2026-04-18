@@ -1,0 +1,6 @@
+experiment: mtat_pretrained_probe
+manifest: artifacts/manifests/mtat_top50_manifest.csv
+tags: artifacts/manifests/mtat_top50_tags.json
+backend: panns
+output_dir: artifacts/runs/mtat_pretrained
+device: cpu

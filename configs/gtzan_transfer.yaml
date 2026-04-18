@@ -1,0 +1,8 @@
+experiment: gtzan_transfer_probe
+gtzan_root: GTZAN
+mtat_checkpoint: artifacts/runs/mtat_cnn_baseline/best.pt
+sample_rate: 16000
+chunk_seconds: 3.0
+hop_seconds: 1.5
+seed: 42
+output_dir: artifacts/runs/gtzan_transfer
