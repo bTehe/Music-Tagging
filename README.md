@@ -1,13 +1,10 @@
-# AML Music Tagging Project (MTAT-first, GTZAN auxiliary)
-
-This repository is structured around the requested design:
+# AML Music Tagging Project (MTAT, GTZAN)
 
 1. MTAT as the main dataset (`multi-label tagging`).
 2. Log-mel spectrograms as the main representation.
 3. Short-chunk CNN as the first serious baseline.
 4. One-factor-at-a-time ablations (representation, architecture/pooling, duration, transfer).
 5. GTZAN only as auxiliary transfer/sanity benchmark.
-6. No FMA usage in this implementation.
 
 ## 0) Prerequisites
 
