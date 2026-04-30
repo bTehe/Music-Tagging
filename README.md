@@ -1,9 +1,7 @@
 # AML Music Tagging Project (MTAT, GTZAN)
 
-This repo is our course project for automatic music tagging. The main task is
-multi-label music tagging on MagnaTagATune (MTAT). GTZAN is used only as a small
-transfer/sanity benchmark. FMA is discussed in the background research, but it
-is not used in this implementation.
+The main task is multi-label music tagging on MagnaTagATune (MTAT). GTZAN is used only as a small
+transfer/sanity benchmark.
 
 ## Team
 
@@ -93,7 +91,7 @@ The main implementation pieces are:
 
 ### 1. Main MTAT baseline
 
-This is the first serious baseline: log-mel input, short chunks, CNN backbone.
+The baseline: log-mel input, short chunks, CNN backbone.
 
 | Model | Validation mAP | Best epoch |
 |---|---:|---:|
@@ -111,7 +109,7 @@ Here we change the input representation while keeping the task the same.
 | Log-mel | Short-chunk CNN | 0.408 |
 | Raw waveform | Waveform CNN | 0.255 |
 
-The result matches the literature: waveform models can work, but they usually
+The result matches the literature we reviewed: waveform models can work, but they usually
 need much more data or stronger pretraining. For this project scale, log-mel is
 the safer representation.
 
@@ -197,8 +195,7 @@ SpecAugment or mixup.
 
 The pretrained PANNs branch is useful but not a perfect replacement for the
 main model. It performs strongly and is practical, but it depends on external
-pretrained assets. For a course project, it works best as a comparison point and
-not as the only result.
+pretrained assets.
 
 ## What can be improved
 
@@ -206,8 +203,6 @@ not as the only result.
 - Add per-tag plots for rare tags, because aggregate mAP hides long-tail issues.
 - Add CQT or harmonic stacking as a music-specific representation ablation.
 - Try AST or PaSST if more compute is available.
-- Use a cleaner GTZAN protocol if the dataset is used for stronger conclusions.
-- Save report-ready plots from `history.csv` and evaluation JSON automatically.
 
 ## How to run
 
