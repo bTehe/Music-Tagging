@@ -1,0 +1,3 @@
+model,representation,trainable_params,backbone_pooling,track_pooling
+ShortChunkCNN,logmel,1185490,"AdaptiveAvgPool2d(1,1)",mean/max/heuristic_attention
+WaveformCNN,waveform,837330,AdaptiveAvgPool1d(1),N/A (chunk-level val)

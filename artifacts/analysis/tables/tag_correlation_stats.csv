@@ -1,0 +1,2 @@
+pearson_train_count_vs_ap,spearman_train_count_vs_ap,pearson_co_entropy_vs_ap,spearman_co_degree_vs_ap,pearson_robustness_drop_vs_ap
+0.545793816952049,0.5455112969470794,-0.28928370047230667,-0.3561516385118447,0.10539167568146074

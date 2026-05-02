@@ -1,0 +1,123 @@
+{
+  "n_rows_manifest": 21111,
+  "split_clip_counts": {
+    "train": 16960,
+    "val": 2115,
+    "test": 2036
+  },
+  "n_tags": 50,
+  "highest_shift_tags": [
+    {
+      "tag": "sitar",
+      "max_prevalence_shift": 0.44093554129197166,
+      "val_train_ratio": 1.4100368749381267,
+      "test_train_ratio": 0.5590644587080283
+    },
+    {
+      "tag": "ambient",
+      "max_prevalence_shift": 0.3496243836940196,
+      "val_train_ratio": 1.0968764705559237,
+      "test_train_ratio": 1.3496243836940196
+    },
+    {
+      "tag": "choir",
+      "max_prevalence_shift": 0.3465719931158746,
+      "val_train_ratio": 1.3465719931158746,
+      "test_train_ratio": 1.0844793442829164
+    },
+    {
+      "tag": "choral",
+      "max_prevalence_shift": 0.3261249265645101,
+      "val_train_ratio": 1.32612492656451,
+      "test_train_ratio": 0.8394633742939693
+    },
+    {
+      "tag": "harpsichord",
+      "max_prevalence_shift": 0.3251843498069077,
+      "val_train_ratio": 0.6748156501930923,
+      "test_train_ratio": 0.9194928595658295
+    },
+    {
+      "tag": "violin",
+      "max_prevalence_shift": 0.2646175664881648,
+      "val_train_ratio": 0.7353824335118352,
+      "test_train_ratio": 1.1627256728217485
+    },
+    {
+      "tag": "classic",
+      "max_prevalence_shift": 0.2504366727685122,
+      "val_train_ratio": 0.7495633272314878,
+      "test_train_ratio": 1.043093787243613
+    },
+    {
+      "tag": "solo",
+      "max_prevalence_shift": 0.2445951363708131,
+      "val_train_ratio": 0.7554048636291869,
+      "test_train_ratio": 0.8571510273956822
+    },
+    {
+      "tag": "beats",
+      "max_prevalence_shift": 0.2295898496819666,
+      "val_train_ratio": 1.03519678903763,
+      "test_train_ratio": 0.7704101503180334
+    },
+    {
+      "tag": "strings",
+      "max_prevalence_shift": 0.221180498189107,
+      "val_train_ratio": 0.8623279206176829,
+      "test_train_ratio": 1.221180498189107
+    }
+  ],
+  "highest_cooccurrence_degree_tags": [
+    {
+      "tag": "male vocal",
+      "co_occurrence_degree": 8,
+      "co_occurrence_entropy": 0.7964453101158142
+    },
+    {
+      "tag": "man",
+      "co_occurrence_degree": 8,
+      "co_occurrence_entropy": 0.7911961078643799
+    },
+    {
+      "tag": "male",
+      "co_occurrence_degree": 7,
+      "co_occurrence_entropy": 0.822620153427124
+    },
+    {
+      "tag": "male voice",
+      "co_occurrence_degree": 7,
+      "co_occurrence_entropy": 0.8056210875511169
+    },
+    {
+      "tag": "female voice",
+      "co_occurrence_degree": 7,
+      "co_occurrence_entropy": 0.8229963779449463
+    },
+    {
+      "tag": "beats",
+      "co_occurrence_degree": 6,
+      "co_occurrence_entropy": 0.7552903294563293
+    },
+    {
+      "tag": "woman",
+      "co_occurrence_degree": 6,
+      "co_occurrence_entropy": 0.8161085247993469
+    },
+    {
+      "tag": "singing",
+      "co_occurrence_degree": 6,
+      "co_occurrence_entropy": 0.868480384349823
+    },
+    {
+      "tag": "voice",
+      "co_occurrence_degree": 6,
+      "co_occurrence_entropy": 0.8951181173324585
+    },
+    {
+      "tag": "soft",
+      "co_occurrence_degree": 5,
+      "co_occurrence_entropy": 0.8565685749053955
+    }
+  ]
+}

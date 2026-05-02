@@ -1,0 +1,32 @@
+{
+  "best_global_by_map": {
+    "setting": "dur_4.0_max",
+    "duration": 4.0,
+    "pooling": "max",
+    "map": 0.6229058107027106,
+    "macro_pr_auc": 0.6146011861416439,
+    "macro_roc_auc": 0.9065221671021046
+  },
+  "robustness_summary_from_eval": {
+    "clean": {
+      "macro_pr_auc": 0.5859730147874181,
+      "macro_roc_auc": 0.9019607042257549,
+      "map": 0.5950453399424316
+    },
+    "compression_gamma0p6": {
+      "macro_pr_auc": 0.5186834659260844,
+      "macro_roc_auc": 0.8688536665709001,
+      "map": 0.5275899495077669
+    },
+    "noise_snr20": {
+      "macro_pr_auc": 0.5394534488511773,
+      "macro_roc_auc": 0.8801520826404787,
+      "map": 0.5476697841210513
+    },
+    "time_stretch_1p1": {
+      "macro_pr_auc": 0.5663645105047193,
+      "macro_roc_auc": 0.8949992934295661,
+      "map": 0.5755427675062064
+    }
+  }
+}

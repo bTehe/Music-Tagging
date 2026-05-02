@@ -1,0 +1,26 @@
+{
+  "model_params": {
+    "short_chunk_cnn": 1185490,
+    "waveform_cnn": 837330,
+    "param_ratio_waveform_vs_logmel": 0.7063155319741204
+  },
+  "calibration": {
+    "ece": 0.018680005716705698,
+    "duration": 4.0,
+    "pooling": "max"
+  },
+  "gtzan_transfer_diagnostics": {
+    "val_accuracy_recomputed": 0.75,
+    "test_accuracy_recomputed": 0.73,
+    "hardest_genres_test": [
+      "pop",
+      "reggae",
+      "rock"
+    ],
+    "easiest_genres_test": [
+      "classical",
+      "jazz",
+      "country"
+    ]
+  }
+}

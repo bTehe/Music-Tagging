@@ -1,0 +1,103 @@
+{
+  "correlations": {
+    "pearson_train_count_vs_ap": 0.545793816952049,
+    "spearman_train_count_vs_ap": 0.5455112969470794,
+    "pearson_co_entropy_vs_ap": -0.28928370047230667,
+    "spearman_co_degree_vs_ap": -0.3561516385118447,
+    "pearson_robustness_drop_vs_ap": 0.10539167568146074
+  },
+  "worst_tags": [
+    {
+      "tag": "no voice",
+      "ap": 0.155475504861189,
+      "inferred_failure_reason": "cooccurrence_ambiguity"
+    },
+    {
+      "tag": "no vocal",
+      "ap": 0.264521643608041,
+      "inferred_failure_reason": "cooccurrence_ambiguity"
+    },
+    {
+      "tag": "voice",
+      "ap": 0.2810581864886732,
+      "inferred_failure_reason": "cooccurrence_ambiguity;context_length_dependence"
+    },
+    {
+      "tag": "no vocals",
+      "ap": 0.3384308341362671,
+      "inferred_failure_reason": "cooccurrence_ambiguity"
+    },
+    {
+      "tag": "weird",
+      "ap": 0.363583895232304,
+      "inferred_failure_reason": "cooccurrence_ambiguity"
+    },
+    {
+      "tag": "solo",
+      "ap": 0.3848938795636371,
+      "inferred_failure_reason": "cooccurrence_ambiguity;context_length_dependence"
+    },
+    {
+      "tag": "soft",
+      "ap": 0.4282964931695289,
+      "inferred_failure_reason": "cooccurrence_ambiguity"
+    },
+    {
+      "tag": "sitar",
+      "ap": 0.4701064245587416,
+      "inferred_failure_reason": "split_shift;robustness_fragility"
+    },
+    {
+      "tag": "new age",
+      "ap": 0.4736692759762315,
+      "inferred_failure_reason": "cooccurrence_ambiguity"
+    },
+    {
+      "tag": "harp",
+      "ap": 0.4848941487364874,
+      "inferred_failure_reason": "context_length_dependence"
+    }
+  ],
+  "best_tags": [
+    {
+      "tag": "opera",
+      "ap": 0.9698124725373092
+    },
+    {
+      "tag": "rock",
+      "ap": 0.9198144006402362
+    },
+    {
+      "tag": "guitar",
+      "ap": 0.914859409368338
+    },
+    {
+      "tag": "choir",
+      "ap": 0.8674015857005738
+    },
+    {
+      "tag": "techno",
+      "ap": 0.863414652909591
+    },
+    {
+      "tag": "classical",
+      "ap": 0.8588006438606904
+    },
+    {
+      "tag": "ambient",
+      "ap": 0.8459812316234742
+    },
+    {
+      "tag": "violin",
+      "ap": 0.8452483635262172
+    },
+    {
+      "tag": "choral",
+      "ap": 0.8310987411505649
+    },
+    {
+      "tag": "harpsichord",
+      "ap": 0.8304562952264269
+    }
+  ]
+}

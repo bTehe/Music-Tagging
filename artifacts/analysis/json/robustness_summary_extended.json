@@ -1,0 +1,81 @@
+{
+  "split": "test",
+  "best_clean_metrics": {
+    "condition": "clean",
+    "map": 0.5950453399424316,
+    "macro_pr_auc": 0.5859730147874181,
+    "macro_roc_auc": 0.9019607042257549
+  },
+  "largest_mean_ap_drop_tags": [
+    {
+      "tag": "female",
+      "mean_ap_drop": 0.12294416408140563,
+      "drop_noise_ap": 0.16201574691010145,
+      "drop_stretch_ap": 0.05983758833438191,
+      "drop_compression_ap": 0.14697915699973352
+    },
+    {
+      "tag": "male voice",
+      "mean_ap_drop": 0.1102174981563504,
+      "drop_noise_ap": 0.13169569477903742,
+      "drop_stretch_ap": 0.054320146263018454,
+      "drop_compression_ap": 0.14463665342699533
+    },
+    {
+      "tag": "male vocal",
+      "mean_ap_drop": 0.10440740789552648,
+      "drop_noise_ap": 0.12797632737404457,
+      "drop_stretch_ap": 0.06547476215716047,
+      "drop_compression_ap": 0.11977113415537438
+    },
+    {
+      "tag": "female voice",
+      "mean_ap_drop": 0.10057264072957262,
+      "drop_noise_ap": 0.10110837467020029,
+      "drop_stretch_ap": 0.06420858698176629,
+      "drop_compression_ap": 0.13640096053675127
+    },
+    {
+      "tag": "woman",
+      "mean_ap_drop": 0.09545261679992366,
+      "drop_noise_ap": 0.12149988756457425,
+      "drop_stretch_ap": 0.04363271845790989,
+      "drop_compression_ap": 0.12122524437728682
+    },
+    {
+      "tag": "female vocal",
+      "mean_ap_drop": 0.09247288849819124,
+      "drop_noise_ap": 0.0954768284970432,
+      "drop_stretch_ap": 0.06459879647879407,
+      "drop_compression_ap": 0.11734304051873645
+    },
+    {
+      "tag": "ambient",
+      "mean_ap_drop": 0.0923422382647416,
+      "drop_noise_ap": 0.08926671203421943,
+      "drop_stretch_ap": 0.01215361794481773,
+      "drop_compression_ap": 0.17560638481518764
+    },
+    {
+      "tag": "sitar",
+      "mean_ap_drop": 0.08438143625766835,
+      "drop_noise_ap": 0.06893928632437935,
+      "drop_stretch_ap": 0.08696732594338041,
+      "drop_compression_ap": 0.09723769650524527
+    },
+    {
+      "tag": "quiet",
+      "mean_ap_drop": 0.08380961156870968,
+      "drop_noise_ap": 0.09106655003619318,
+      "drop_stretch_ap": 0.01631630927622718,
+      "drop_compression_ap": 0.14404597539370867
+    },
+    {
+      "tag": "soft",
+      "mean_ap_drop": 0.07978707782523002,
+      "drop_noise_ap": 0.09930605998414976,
+      "drop_stretch_ap": 0.01136156808724359,
+      "drop_compression_ap": 0.1286936054042967
+    }
+  ]
+}
